@@ -5,13 +5,47 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: Roboto;
 }
 
 .main-container {
-    width: 800px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+
 }
 
+.Header-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
+.Header-Logo {
+    font-size: 24px;
+    font-weight: 900px;
+    margin-right: auto;
+    margin-left: 10%;
+}
 
+.Header-Link-group {
+    display: flex;
+    margin-right: 10%;
+}
+
+.Header-Link {
+    padding: 16px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.Banner-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
