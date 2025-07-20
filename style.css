@@ -1,0 +1,17 @@
+* {
+    outline: 2px solid red;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
