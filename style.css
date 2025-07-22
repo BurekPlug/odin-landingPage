@@ -24,12 +24,12 @@ body {
     font-size: 24px;
     font-weight: 900px;
     margin-right: auto;
-    margin-left: 10%;
+    margin-left: 30%;
 }
 
 .Header-Link-group {
     display: flex;
-    margin-right: 10%;
+    margin-right: 30%;
 }
 
 .Header-Link {
@@ -48,12 +48,13 @@ a {
     color: #F9FAF8;
     display: flex;
     padding-bottom: 5%;
+    gap: 48px;
 }
 
 .Hero-container {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 30%;
     gap: 8px;
 }
 
@@ -78,7 +79,7 @@ button {
 
 .PlaceHolder {
     width:40%;
-    margin-right: 10%;
+    margin-right: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,14 +187,16 @@ button {
 }
 
 .signup-button {
+    border-color: white;
+    border-width: 6px;
     background-color: #3882F6;
     border-radius: 6px;
-    border-color: #E5E7EB;
     width: 128px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .signup-text {
