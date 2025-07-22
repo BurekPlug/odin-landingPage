@@ -163,3 +163,42 @@ button {
     font-weight: bold;
 }
 
+/* signIn-section */
+.signIn-section {
+    padding: 104px;
+}
+.signIn-container {
+    margin: auto;
+    width: 800px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CalltoAction {
+    color: #E5E7EB;
+    
+}
+
+.cta-text {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border-color: #E5E7EB;
+    width: 128px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-text {
+    color: #E5E7EB;
+}
