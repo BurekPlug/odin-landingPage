@@ -101,6 +101,7 @@ button {
     justify-content: space-around;
     align-items: center;
     gap: 16px;
+    padding: 80px;
 }
 
 .info-header {
@@ -131,5 +132,34 @@ button {
     margin-top: 12px;
     text-align: center;
     color: lightslategrey;
+}
+
+/* Qoute section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.quote-container {
+    margin: auto;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
 }
 
